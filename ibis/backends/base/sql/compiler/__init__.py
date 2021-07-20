@@ -1,6 +1,8 @@
 from .base import DDL, DML
 from .query_builder import (
     Compiler,
+    Difference,
+    Intersection,
     Select,
     SelectBuilder,
     TableSetFormatter,
@@ -13,6 +15,8 @@ __all__ = (
     'Select',
     'SelectBuilder',
     'Union',
+    'Intersection',
+    'Difference',
     'TableSetFormatter',
     'ExprTranslator',
     'QueryContext',
